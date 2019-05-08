@@ -25,7 +25,7 @@ module.exports = {
   serviceWorker: true,
   theme: 'vue',
   themeConfig: {
-    repo: 'guhuilin/study',
+    repo: 'suxianghui/study',
 
     docsDir: 'src',
     editLinks: true,
@@ -33,7 +33,7 @@ module.exports = {
     locales: {
       '/': {
         label: '简体中文',
-        repo: 'guhuilin/study',
+        repo: 'suxianghui/study',
 
         selectText: '选择语言',
         editLinkText: '帮助我们改进内容',
@@ -106,9 +106,15 @@ module.exports = {
           '/zh/chain/': [{
             title: '常用知识点', 
             children: [
-              '', 'Vue','page',
+              '', 'Vue','page','Diff DOM'
             ]
           }],
+          '/zh/diff/': [{
+            title: 'Diff DOM',
+            children: [
+              ''
+            ]
+          }]
           // '/zh/chain/': [{
           //   title: '常用知识点', children: [
           //     '', 'JSX', 'MVVM', 'Props', 'React生命周期', 'React组件', 'React路由', 'redux', 'redux中间件', '组件通信', '高阶组件'
